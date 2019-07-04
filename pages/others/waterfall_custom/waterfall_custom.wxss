@@ -1,0 +1,18 @@
+/* pages/others/waterfall_custom/waterfall_custom.wxss */
+.container {
+  padding: 10px;
+  /* display: flex; */
+
+}
+.list {
+  column-count: 2;
+  /* flex: 1; */
+}
+.list::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.item {
+  /* float: left; */
+}

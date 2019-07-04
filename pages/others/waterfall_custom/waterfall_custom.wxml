@@ -1,0 +1,21 @@
+<!--pages/others/waterfall_custom/waterfall_custom.wxml-->
+<view class="container">
+  <view class="list">
+    <view wx:for="{{list}}" wx:key="index" class="item" >
+      <image src="{{item.url}}" mode="aspectFit" bindload="loadImage" data-index="{{index}}" style="width: {{item.width}}px; height:{{item.height}}px;"/>
+      <view>{{index}}-{{item.name}}-id-{{item.id}}</view>
+    </view>
+  </view>
+  <!-- <view class="list">
+    <view wx:for="{{list1}}" wx:key="index" class="item" >
+      <image src="{{item.url}}" mode="aspectFit" bindload="loadImage1" data-index="{{index}}" style="width: {{item.width}}px; height:{{item.height}}px;"/>
+      <view>{{index}}-{{item.name}}-id-{{item.id}}</view>
+    </view>
+  </view>
+  <view class="list">
+    <view wx:for="{{list2}}" wx:key="index" class="item">
+      <image src="{{item.url}}" mode="aspectFit" bindload="loadImage2" data-index="{{index}}" style="width: {{item.width}}px; height:{{item.height}}px;"/>
+      <view>{{index}}-{{item.name}}-id-{{item.id}}</view>
+    </view>
+  </view> -->
+</view>

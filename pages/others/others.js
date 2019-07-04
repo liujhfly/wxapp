@@ -71,7 +71,7 @@ Page({
                 id: 'waterfall',
                 name: '瀑布流',
                 open: false,
-                pages: ['waterfall']
+                pages: ['waterfall', 'waterfall_custom']
             },
             {
                 id: 'calendar',

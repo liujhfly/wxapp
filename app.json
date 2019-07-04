@@ -4,6 +4,7 @@
     "pages/others/commodity_attr/commodity_attr",
     "pages/others/calendar/calendar",
     "pages/others/waterfall/waterfall",
+    "pages/others/waterfall_custom/waterfall_custom",
     "pages/others/toast/toast",
     "pages/others/pictures/pictures",
     "pages/others/form/form",
@@ -84,5 +85,6 @@
     "uploadFile": 10000,
     "downloadFile": 10000
   },
-  "debug": true
+  "debug": true,
+  "sitemapLocation": "sitemap.json"
 }
